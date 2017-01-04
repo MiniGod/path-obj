@@ -1,0 +1,21 @@
+{
+  "name": "path-obj",
+  "version": "0.0.1",
+  "description": "Parses a path to an object. Each section of the pathname is indexed and merged with the querystring.",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "lint": "standard --fix",
+    "dev": "nodemon -x 'npm run lint --silent; npm run test --silent'"
+  },
+  "author": "Kristjan Broder Lund",
+  "license": "ISC",
+  "engines": {
+    "node": ">=6"
+  },
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "nodemon": "^1.11.0",
+    "standard": "^8.6.0"
+  }
+}
