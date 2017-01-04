@@ -1,6 +1,6 @@
 {
   "name": "path-obj",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Parses a path to an object. Each section of the pathname is indexed and merged with the querystring.",
   "main": "index.js",
   "scripts": {
